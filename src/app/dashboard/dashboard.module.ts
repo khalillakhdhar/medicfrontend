@@ -7,6 +7,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { MedicamentsComponent } from './medicaments/medicaments.component';
 import { MaladiesComponent } from './maladies/maladies.component';
 import { RappelsComponent } from './rappels/rappels.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { RappelsComponent } from './rappels/rappels.component';
     ProfileComponent,
     MedicamentsComponent,
     MaladiesComponent,
-    RappelsComponent
+    RappelsComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
